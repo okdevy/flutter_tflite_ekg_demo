@@ -1,0 +1,35 @@
+name: tflite_demo
+description: "Flutter demo app for on-device ECG classification using TensorFlow Lite (tflite_flutter)."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  file_picker: ^8.0.0
+  path_provider: ^2.0.1
+  tflite_flutter: ^0.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/models/
+    - assets/test/
