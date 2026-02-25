@@ -1,8 +1,11 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:pro_pretty_logging/pro_pretty_logging.dart';
 
 import 'ui/ecg_screen.dart';
 
 void main() {
+  prettyLogging(enable: kDebugMode);
   runApp(const MyApp());
 }
 
