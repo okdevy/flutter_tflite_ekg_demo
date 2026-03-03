@@ -49,3 +49,6 @@ app.*.map.json
 
 # Fastlane
 **/fastlane/report.xml
+
+# Tflite model files
+**/assets/*.tflite
